@@ -7,7 +7,7 @@ class PostsController < ApplicationController
 	end
 
 	def create
-	  @post = Post.new{post_params}
+	  @post = Post.new(post_params)
 	  @post.save
 
 	  redirect_to @post
@@ -20,8 +20,7 @@ class PostsController < ApplicationController
 
   private
     def post_params #define strong params in rails 4
-		params.require(:post).permit(:title, :body)
+		params.require(:post).permit(:title,:body)
 	end
-
 end
 
