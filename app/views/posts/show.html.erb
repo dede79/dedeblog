@@ -14,10 +14,10 @@
 	</p>
 
 	<div id="comment">
-		<h2><%= @post.comment.count %> Comments</h2>
+		<h2><%= @post.comments.count %> Comments</h2>
 		<%= render @post.comments %>
 
-		<h3>Add a Comment</h3>
-		<%= render 'comments/form' %>
+		<h3>Add a Comment:</h3>
+		<%= render "comments/form" %>
 	</div>
 </div>
