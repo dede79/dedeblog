@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+  <title>Dede's Blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -12,7 +12,7 @@
 	<div id="sidebar">
 		<div id="logo">
 			<%= link_to root_path do %>
-				<%= image_tag "logo.jpg" html: {width: "250px", height: "250px"} %>
+				<%= image_tag "logo.jpg", width: "70", height: "70"%>
 			<% end %>
 		</div>
 
@@ -40,7 +40,7 @@
 			<% if user_signed_in? %>
 				<div class="buttons">
 					<button class="button"><%= link_to "New Post", new_post_path %></button>
-					<button class="button">Log Out</button>
+					<%= link_to "Log Out", destroy_user_session_path, :class => "button", method: :delete %>
 				</div>
 			<% end %>
 		</div>
