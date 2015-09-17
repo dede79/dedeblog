@@ -10,13 +10,15 @@
 	</p>
 
 	<p class= "body">
-	  Post: <%= @post.body %>
+	    Post: <%= @post.body %>
 	</p>
 
 	<div id="comment">
-		<h2><%= @post.comments.count %>Comments</h2>
-
+		<h2><%= @post.comments.count %> Comments</h2>
+	        <% @post.comments.map do |comment| %>
+	        <%= render 'comments/comment', comment: comment %>
+	        <% end %>
 		<h3>Add a Comment:</h3>
-		<%= render "comments/form" %>
+		    <%= render "comments/form" %>
 	</div>
 </div>
