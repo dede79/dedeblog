@@ -2,5 +2,8 @@
   <div class="post_wrapper">
     <h2 class="title"><%= link_to post.title, post %></h2>
     <p class="date"><%= post.created_at.strftime("%B, %d, %Y") %> </p>
+    <!--create the edit link by link_to the edit post action path, pass the post parameter for the post thats going to be edited. loop |post| parameter above.-->
+    <p><%= link_to "Edit", edit_post_path(post) %> |  <%= link_to "Delete", post, :confirm => "Are you sure?", :method => :delete %></p>
+    <!--delete, pass parameters to confirm deletion and the method is :delete, pass it to post which is whatever current post is being selected, and amend destroy action-->
   </div>
 <% end %>
