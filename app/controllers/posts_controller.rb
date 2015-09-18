@@ -21,6 +21,7 @@ class PostsController < ApplicationController
 
 	def show
 	  @post = Post.find(params[:id])#find particular post by passing params hash id.
+	 
 	end
       
     def edit

@@ -1,0 +1,298 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dede/dedeblog/app/controllers/posts_controller.rb",
+		"/home/dede/dedeblog/app/models/comment.rb",
+		"/home/dede/dedeblog/db/migrate/20150917163910_devise_create_admins.rb",
+		"/home/dede/dedeblog/app/views/posts/new.html.erb",
+		"/home/dede/dedeblog/app/views/layouts/application.html.erb",
+		"/home/dede/dedeblog/app/views/posts/index.html.erb",
+		"/home/dede/dedeblog/app/controllers/comments_controller.rb",
+		"/home/dede/dedeblog/db/migrate/20150815134346_create_comments.rb",
+		"/home/dede/dedeblog/app/views/posts/show.html.erb",
+		"/home/dede/dedeblog/db/migrate/20150814173549_create_posts.rb",
+		"/home/dede/dedesite/app/mailers/application_mailer.rb",
+		"/home/dede/dedesite/app/views/welcome/thank_you.html.erb",
+		"/home/dede/dedesite/app/views/user_mailer/contact_form.html.erb",
+		"/home/dede/dedesite/config/routes.rb",
+		"/home/dede/dedesite/app/controllers/welcome_controller.rb",
+		"/home/dede/dedesite/app/views/welcome/homepage.html.erb",
+		"/home/dede/dedesite/app/controllers/application_controller.rb",
+		"/home/dede/dedesite/app/mailers/user_mailer.rb",
+		"/home/dede/dedesite/app/assets/javascripts/welcome.js.coffee",
+		"/home/dede/dedesite/app/assets/javascripts/jquery.js",
+		"/home/dede/dedesite/app/assets/stylesheets/application.css",
+		"/home/dede/dedesite/app/assets/images/portfolio/treehouse.png",
+		"/home/dede/dedeblog/app/views/devise/sessions/new.html.erb",
+		"/home/dede/dedeblog/app/assets/stylesheets/application.css.scss",
+		"/home/dede/dedeblog/Gemfile",
+		"/home/dede/dedeblog/app/views/pages/about.html.erb",
+		"/home/dede/dedeblog/app/views/comments/_form.html.erb",
+		"/home/dede/dedeblog/config/environments/production.rb",
+		"/home/dede/dedeblog/app/models/user.rb",
+		"/home/dede/dedesite/app/assets/images/logos/rails.png",
+		"/home/dede/dedesite/app/assets/javascripts/contact_me.js",
+		"/home/dede/dedesite/app/assets/images/portfolio/dreams-preview.png",
+		"/home/dede/dedesite/app/assets/javascripts/jqBootstrapValidation.js",
+		"/home/dede/dedesite/app/assets/images/about/2.jpg",
+		"/home/dede/dedesite/app/assets/images/portfolio/treehouse-preview.png",
+		"/home/dede/dedesite/app/assets/images/logos/microlancer.jpg",
+		"/home/dede/dedesite/app/assets/images/logos/designmodo.jpg",
+		"/home/dede/shopdemo/app/models/product.rb",
+		"/home/dede/shopdemo/Gemfile",
+		"/home/dede/Desktop/Start/index.html",
+		"/home/dede/Desktop/Start/main.css",
+		"/home/dede/Desktop/Udacity RWF2/index.html",
+		"/home/dede/Desktop/Udacity RWF2/main.css",
+		"/home/dede/dedesite/config/environment.rb",
+		"/home/dede/dedesite/app/views/layouts/application.html.erb",
+		"/home/dede/dedesite/app/assets/stylesheets/agency.css",
+		"/home/dede/dedesite/Gemfile",
+		"/home/dede/shopdemo/spec/models/user_spec.rb",
+		"/home/dede/shopdemo/app/models/order.rb",
+		"/home/dede/shopdemo/app/views/products/_comment.html.erb",
+		"/home/dede/shopdemo/app/controllers/comments_controller.rb",
+		"/home/dede/shopdemo/app/models/user.rb",
+		"/home/dede/shopdemo/app/models/ability.rb",
+		"/home/dede/shopdemo/app/views/devise/registrations/new.html.erb",
+		"/home/dede/shopdemo/db/migrate/20150906214638_add_admin_flag_to_users.rb",
+		"/home/dede/shopdemo/app/views/products/_new_comment.html.erb",
+		"/home/dede/shopdemo/app/controllers/products_controller.rb",
+		"/home/dede/shopdemo/app/models/comment.rb",
+		"/home/dede/shopdemo/app/assets/javascripts/site.js",
+		"/home/dede/shopdemo/config/environments/production.rb",
+		"/home/dede/shopdemo/app/assets/images/star-off.png",
+		"/home/dede/shopdemo/app/views/products/show.html.erb",
+		"/home/dede/shopdemo/app/views/products/_product.html.erb",
+		"/home/dede/shopdemo/app/controllers/users_controller.rb",
+		"/home/dede/shopdemo/app/views/products/edit.html.erb",
+		"/home/dede/shopdemo/app/views/users/show.html.erb",
+		"/home/dede/shopdemo/app/controllers/orders_controller.rb",
+		"/home/dede/shopdemo/app/views/products/index.json.jbuilder",
+		"/home/dede/shopdemo/app/views/products/_display.html.erb",
+		"/home/dede/shopdemo/app/views/products/show.json.jbuilder",
+		"/home/dede/shopdemo/config/routes.rb",
+		"/home/dede/shopdemo/app/views/layouts/application.html.erb",
+		"/home/dede/shopdemo/app/views/static_pages/contact.html.erb",
+		"/home/dede/shopdemo/app/assets/stylesheets/application.css.scss",
+		"/home/dede/shopdemo/app/assets/stylesheets/devise.css.scss",
+		"/home/dede/shopdemo/app/views/devise/passwords/new.html.erb",
+		"/home/dede/shopdemo/app/views/devise/passwords/edit.html.erb",
+		"/home/dede/shopdemo/app/assets/stylesheets/static_pages.css.scss",
+		"/home/dede/shopdemo/app/views/devise/registrations/edit.html.erb",
+		"/home/dede/shopdemo/app/views/devise/sessions/new.html.erb",
+		"/home/dede/shopdemo/config/environments/development.rb",
+		"/home/dede/shopdemo/app/controllers/application_controller.rb",
+		"/home/dede/railsgirls/app/views/layouts/application.html.erb",
+		"/home/dede/railsgirls/config/environments/production.rb",
+		"/home/dede/railsgirls/app/views/welcome/homepage.html.erb",
+		"/home/dede/railsgirls/Gemfile",
+		"/home/dede/shopdemo/app/views/users/index.html.erb",
+		"/home/dede/shopdemo/config/initializers/devise.rb",
+		"/home/dede/shopdemo/app/views/products/index.html.erb",
+		"/home/dede/shopdemo/app/views/static_pages/landing_page.html.erb",
+		"/home/dede/shopdemo/public/images",
+		"/home/dede/shopdemo/app/views/user_mailer/contact_form.html.erb",
+		"/home/dede/shopdemo/app/controllers/static_pages_controller.rb",
+		"/home/dede/shopdemo/app/mailers/user_mailer.rb",
+		"/home/dede/shopdemo/app/mailers/contact_form.rb",
+		"/home/dede/shopdemo/app/assets/javascripts/application.js",
+		"/home/dede/shopdemo/app/assets/stylesheets/products.css.scss",
+		"/home/dede/shopdemo/app/views/products/_form.html.erb",
+		"/home/dede/shopdemo/app/mailers/contact_form.html.erb",
+		"/home/dede/shopdemo/app/views/static_pages/thank_you.html.erb",
+		"/home/dede/shopdemo/app/views/products/new.html.erb",
+		"/home/dede/shopdemo/app/views/static_pages/about.html.erb",
+		"/home/dede/dedeblog/app/views/comments/_comments.html.erb",
+		"/home/dede/dedeblog/config/routes.rb",
+		"/home/dede/dedeblog/app/controllers/pages_controller.rb",
+		"/home/dede/dedeblog/config/environments/development.rb",
+		"/home/dede/dedeblog/app/views/posts/_form.html.erb",
+		"/home/dede/dedeblog/app/views/posts/edit.html.erb",
+		"/home/dede/dedeblog/app/models/post.rb",
+		"/home/dede/shopdemo/app/views/static_pages/index.html.erb",
+		"/home/dede/dedeblog/app/assets/stylesheets/_normalize.css.scss",
+		"/home/dede/dedeblog/app/controllers/application_controller.rb",
+		"/home/dede/dedeblog/app/views/show.html.erb",
+		"/home/dede/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/dede/shopdemo/db/schema.rb",
+		"/home/dede/shopdemo/db/migrate/20150811134615_create_orders.rb",
+		"/home/dede/shopdemo/db/migrate/20150628140220_create_products.rb",
+		"/home/dede/shopdemo/db/migrate/20150810114941_create_orders.rb",
+		"/home/dede/shopdemo/app/helpers/products_helper.rb",
+		"/home/dede/shopdemo/db/migrate/20150810205448_add_product_id_to_products.rb",
+		"/home/dede/shopdemo/app/models/orders.rb",
+		"/home/dede/shopdemo/config/environment.rb",
+		"/home/dede/shopdemo/db/migrate/20150809154455_create_orders.rb",
+		"/home/dede/shopdemo/db/migrate/20150708114427_rename_colors_in_products.rb",
+		"/home/dede/shopdemo/app/controllers/orders_conttroller.rb",
+		"/home/dede/todo/config/application.rb",
+		"/home/dede/todo/spec/features/todo_lists/create_spec.rb",
+		"/home/dede/todo/config/routes.rb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/dede/railsgirls"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"post_id",
+			"logo",
+			"main",
+			"form",
+			"img"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "comments_controller.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
